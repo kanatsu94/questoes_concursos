@@ -1,0 +1,113 @@
+2016-03-31 03:22:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Logout could not be found.
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /questoes_concursos/logout
+Stack Trace:
+#0 C:\xampp\htdocs\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-31 03:34:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Userslogout could not be found.
+Exception Attributes: array (
+  'class' => 'Userslogout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /questoes_concursos/userslogout
+Stack Trace:
+#0 C:\xampp\htdocs\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-31 03:36:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Question could not be found.
+Exception Attributes: array (
+  'class' => 'Question',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /questoes_concursos/question
+Stack Trace:
+#0 C:\xampp\htdocs\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-31 03:47:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Userslogout could not be found.
+Exception Attributes: array (
+  'class' => 'Userslogout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /questoes_concursos/userslogout
+Stack Trace:
+#0 C:\xampp\htdocs\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-31 03:47:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Question could not be found.
+Exception Attributes: array (
+  'class' => 'Question',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /questoes_concursos/question
+Stack Trace:
+#0 C:\xampp\htdocs\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-31 03:48:46 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::questoesConcurso() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'questoesConcurso',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /questoes_concursos/users/questoes_concurso/users/login
+Referer URL: http://localhost/questoes_concursos/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-03-31 03:48:56 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::questoesConcurso() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'questoesConcurso',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /questoes_concursos/users/questoes_concurso/users/login
+Referer URL: http://localhost/questoes_concursos/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-03-31 03:49:31 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::users() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /questoes_concursos/users/users/login
+Referer URL: http://localhost/questoes_concursos/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
