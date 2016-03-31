@@ -42,9 +42,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </ul>
         <?php    
             if ($authUser){
-                echo "<a class='navmenu' href='/users/logout'>Sair</a>";
+                echo "<a class='navmenu' href='/questoes_concursos/users/logout'>Sair</a>";
             } else {
-                echo "<a class='navmenu' href='/users/login'>Entrar</a>";
+                echo "<a class='navmenu' href='/questoes_concursos/users/add'>Entrar</a>";
             }
         ?>
     </nav>
