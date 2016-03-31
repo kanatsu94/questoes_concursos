@@ -18,10 +18,17 @@
         public function index(){
             $questoesTable = TableRegistry::get('Questions');
             
+            $testsTable = TableRegistry::get('Tests');
+            
+            $tests = $testsTable ->find('all', ['contains' => ['TrainingsAreas']]);
+            
             $questoes = $questoesTable->find('all');
             
-            $this->set('user_id', 1);
+            $this->set('ano', '2015');
+            $this->set('instituicao', 'UFMS');
+            $this->set('disciplina', 'Matemática');
             $this->set('questions', $this->paginate($questoes));
+            $this->set('tests', $tests);
         }
         
         public function back(){

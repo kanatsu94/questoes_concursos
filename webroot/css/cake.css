@@ -482,12 +482,49 @@ fieldset legend {
 }
 
 .form button:hover, .form button:focus {
-    background: #039be5;
+    background: #4cb3bc;
     box-shadow: none;
 }
 
 button {
-    background: #039be5;
+    background: #31929b;
+}
+
+div.titulo_questao {
+    display: block;
+    clear: both;
+    background: #a5a5a5;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    background-repeat: repeat-x;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+    font-weight: bold;
+}
+
+section {
+    clear: both;
+}
+
+div.titulo_questao h4 {
+    color: floralwhite;
+}
+
+div.detalhes_questao {
+    width: 100%;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 38px;
+}
+
+div.detalhe{
+    float: left;
+    margin-right: 18px;
+}
+
+strong.detalhe_questao {
+    font-weight: bold;
+    color: dimgray;
 }
 
 div.message {
