@@ -111,3 +111,1078 @@ Stack Trace:
 #3 {main}
 
 
+2016-04-01 06:44:14 Error: Fatal Error (4): syntax error, unexpected '!' in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 06:44:14 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '!'
+Request URL: /
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Kanats...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 06:44:34 Error: Fatal Error (1): Class 'App\Controller\TrainingArea' not found in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 06:44:34 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\TrainingArea' not found
+Request URL: /
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\Users\\Kanats...', 41)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 06:46:48 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php, line 232]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Widget\SelectBoxWidget::_renderOptions() - CORE\src\View\Widget\SelectBoxWidget.php, line 232
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE\src\View\Widget\SelectBoxWidget.php, line 164
+Cake\View\Widget\SelectBoxWidget::render() - CORE\src\View\Widget\SelectBoxWidget.php, line 116
+Cake\View\Helper\FormHelper::widget() - CORE\src\View\Helper\FormHelper.php, line 2557
+Cake\View\Helper\FormHelper::select() - CORE\src\View\Helper\FormHelper.php, line 1884
+include - APP/Template\Questions\index.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 06:49:14 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php, line 232]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Widget\SelectBoxWidget::_renderOptions() - CORE\src\View\Widget\SelectBoxWidget.php, line 232
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE\src\View\Widget\SelectBoxWidget.php, line 164
+Cake\View\Widget\SelectBoxWidget::render() - CORE\src\View\Widget\SelectBoxWidget.php, line 116
+Cake\View\Helper\FormHelper::widget() - CORE\src\View\Helper\FormHelper.php, line 2557
+Cake\View\Helper\FormHelper::select() - CORE\src\View\Helper\FormHelper.php, line 1884
+include - APP/Template\Questions\index.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 07:21:44 Error: [RuntimeException] Unable to find table class for current entity
+Request URL: /
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\Form\EntityContext.php(99): Cake\View\Form\EntityContext->_prepare()
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\View\Form\EntityContext->__construct(Object(Cake\Network\Request), Array)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2506): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(346): Cake\View\Helper\FormHelper->_getContext(Array)
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Template\Questions\index.ctp(15): Cake\View\Helper\FormHelper->create(Array)
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(992): include('C:\\Users\\Kanats...')
+#6 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(952): Cake\View\View->_evaluate('C:\\Users\\Kanats...', Array)
+#7 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(587): Cake\View\View->_render('C:\\Users\\Kanats...')
+#8 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#9 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#10 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#11 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-04-01 07:26:44 Warning: Warning (2): array_key_exists() expects exactly 2 parameters, 1 given in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_key_exists - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 92
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 07:26:44 Error: [Cake\View\Exception\MissingTemplateException] Template file "Questions\filter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Questions\\filter.ctp',
+)
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions/filter
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-01 07:26:50 Warning: Warning (2): array_key_exists() expects exactly 2 parameters, 1 given in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_key_exists - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 92
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 07:26:50 Error: [Cake\View\Exception\MissingTemplateException] Template file "Questions\filter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Questions\\filter.ctp',
+)
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-01 07:27:02 Warning: Warning (2): array_key_exists() expects exactly 2 parameters, 1 given in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_key_exists - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 92
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 07:27:02 Error: [Cake\View\Exception\MissingTemplateException] Template file "Questions\filter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Questions\\filter.ctp',
+)
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-01 07:31:40 Error: [Cake\View\Exception\MissingTemplateException] Template file "Questions\filter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Questions\\filter.ctp',
+)
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-01 07:31:45 Error: [Cake\View\Exception\MissingTemplateException] Template file "Questions\filter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Questions\\filter.ctp',
+)
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-01 07:32:24 Error: [Cake\View\Exception\MissingTemplateException] Template file "Questions\filter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Questions\\filter.ctp',
+)
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-01 07:33:44 Error: [Cake\View\Exception\MissingTemplateException] Template file "Questions\filter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Questions\\filter.ctp',
+)
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions/filter
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-01 07:33:50 Error: [Cake\Controller\Exception\MissingActionException] Action QuestionsController::fr() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'QuestionsController',
+  'action' => 'fr',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /questions/fr
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-04-01 07:33:59 Error: [Cake\View\Exception\MissingTemplateException] Template file "Questions\filter.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Questions\\filter.ctp',
+)
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-01 08:02:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['discipline_id =' => 2]' at line 1
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#6 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#7 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#8 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#9 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(112): Cake\ORM\Query->toArray()
+#10 [internal function]: App\Controller\QuestionsController->filter()
+#11 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#12 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#14 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2016-04-01 08:03:09 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[discipline_id = 2]' at line 1
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#6 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#7 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#8 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#9 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(112): Cake\ORM\Query->toArray()
+#10 [internal function]: App\Controller\QuestionsController->filter()
+#11 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#12 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#14 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2016-04-01 08:25:19 Warning: Warning (2): rawurlencode() expects parameter 1 to be string, array given in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Route\Route.php, line 573]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+rawurlencode - [internal], line ??
+array_map - [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() - CORE\src\Routing\Route\Route.php, line 573
+Cake\Routing\Route\Route::match() - CORE\src\Routing\Route\Route.php, line 534
+Cake\Routing\Route\DashedRoute::match() - CORE\src\Routing\Route\DashedRoute.php, line 100
+Cake\Routing\RouteCollection::match() - CORE\src\Routing\RouteCollection.php, line 252
+Cake\Routing\Router::url() - CORE\src\Routing\Router.php, line 612
+Cake\Controller\Controller::redirect() - CORE\src\Controller\Controller.php, line 546
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 112
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:25:30 Warning: Warning (2): rawurlencode() expects parameter 1 to be string, array given in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Route\Route.php, line 573]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+rawurlencode - [internal], line ??
+array_map - [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() - CORE\src\Routing\Route\Route.php, line 573
+Cake\Routing\Route\Route::match() - CORE\src\Routing\Route\Route.php, line 534
+Cake\Routing\Route\DashedRoute::match() - CORE\src\Routing\Route\DashedRoute.php, line 100
+Cake\Routing\RouteCollection::match() - CORE\src\Routing\RouteCollection.php, line 252
+Cake\Routing\Router::url() - CORE\src\Routing\Router.php, line 612
+Cake\Controller\Controller::redirect() - CORE\src\Controller\Controller.php, line 546
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 112
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:29:45 Warning: Warning (2): Missing argument 1 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:29:45 Warning: Warning (2): Missing argument 2 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:29:45 Warning: Warning (2): Missing argument 3 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:29:45 Warning: Warning (2): Missing argument 4 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:29:45 Warning: Warning (2): Missing argument 5 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:29:45 Warning: Warning (2): rawurlencode() expects parameter 1 to be string, array given in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Route\Route.php, line 573]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+rawurlencode - [internal], line ??
+array_map - [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() - CORE\src\Routing\Route\Route.php, line 573
+Cake\Routing\Route\Route::match() - CORE\src\Routing\Route\Route.php, line 534
+Cake\Routing\Route\DashedRoute::match() - CORE\src\Routing\Route\DashedRoute.php, line 100
+Cake\Routing\RouteCollection::match() - CORE\src\Routing\RouteCollection.php, line 252
+Cake\Routing\Router::url() - CORE\src\Routing\Router.php, line 612
+Cake\Controller\Controller::redirect() - CORE\src\Controller\Controller.php, line 546
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 112
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:29:52 Error: Fatal Error (1): Call to undefined method App\Controller\QuestionsController::_filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 08:29:52 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\QuestionsController::_filter()
+Request URL: /questions/index
+Referer URL: http://localhost:8765/questions/index
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Kanats...', 25)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 08:29:56 Error: Fatal Error (1): Call to undefined method App\Controller\QuestionsController::_filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 08:29:56 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\QuestionsController::_filter()
+Request URL: /questions/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Kanats...', 25)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 08:30:37 Error: Fatal Error (1): Call to undefined method App\Controller\QuestionsController::_filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 08:30:38 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\QuestionsController::_filter()
+Request URL: /questions/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Kanats...', 25)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 08:31:10 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /questions/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(40): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 08:31:33 Warning: Warning (2): Missing argument 1 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:31:33 Warning: Warning (2): Missing argument 2 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:31:33 Warning: Warning (2): Missing argument 3 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:31:33 Warning: Warning (2): Missing argument 4 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:31:33 Warning: Warning (2): Missing argument 5 for App\Controller\QuestionsController::filter() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 101
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 08:31:33 Error: [LogicException] Controller action can only return an instance of Response
+Request URL: /questions/filter
+Referer URL: http://localhost:8765/questions/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 {main}
+
+
+2016-04-01 09:08:09 Error: [RuntimeException] Table "App\Model\Table\TestsTable" is not associated with "training_area_id"
+Request URL: /
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Model\Table\TestsTable.php(13): Cake\ORM\Table->__get('training_area_i...')
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\Table.php(288): App\Model\Table\TestsTable->initialize(Array)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(207): Cake\ORM\Table->__construct(Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(175): Cake\ORM\Locator\TableLocator->_create(Array)
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\TableRegistry.php(111): Cake\ORM\Locator\TableLocator->get('Tests', Array)
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(33): Cake\ORM\TableRegistry::get('Tests')
+#6 [internal function]: App\Controller\QuestionsController->index()
+#7 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#8 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#9 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#10 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2016-04-01 09:49:37 Error: Fatal Error (1): Call to a member function _getQuestions() on a non-object in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 09:49:37 Error: [Cake\Error\FatalErrorException] Call to a member function _getQuestions() on a non-object
+Request URL: /
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Kanats...', 132)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 09:50:04 Error: Fatal Error (1): Call to undefined method Cake\ORM\ResultSet::_getQuestions() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 09:50:04 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\ORM\ResultSet::_getQuestions()
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Kanats...', 132)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 09:50:32 Error: Fatal Error (1): Call to undefined method Cake\ORM\ResultSet::_getQuestions() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 09:50:32 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\ORM\ResultSet::_getQuestions()
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Kanats...', 132)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 09:51:34 Error: Fatal Error (1): Call to undefined method Cake\ORM\ResultSet::_getQuestions() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 09:51:34 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\ORM\ResultSet::_getQuestions()
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Kanats...', 132)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 09:51:44 Error: Fatal Error (1): Call to undefined method Cake\ORM\ResultSet::_getQuestions() in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 09:51:44 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\ORM\ResultSet::_getQuestions()
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Kanats...', 132)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 09:52:54 Error: Fatal Error (1): Call to a member function _getQuestions() on a non-object in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 09:52:54 Error: [Cake\Error\FatalErrorException] Call to a member function _getQuestions() on a non-object
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Kanats...', 132)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 09:53:15 Error: Fatal Error (1): Call to a member function _getQuestions() on a non-object in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 134]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 09:53:15 Error: [Cake\Error\FatalErrorException] Call to a member function _getQuestions() on a non-object
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Kanats...', 134)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 09:53:15 Error: Fatal Error (1): Call to a member function _getQuestions() on a non-object in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 134]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 09:53:15 Error: [Cake\Error\FatalErrorException] Call to a member function _getQuestions() on a non-object
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Kanats...', 134)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 09:56:35 Error: Fatal Error (1): Call to a member function push() on a non-object in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 135]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-01 09:56:35 Error: [Cake\Error\FatalErrorException] Call to a member function push() on a non-object
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Kanats...', 135)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-04-01 09:57:12 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(41): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 09:57:30 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(41): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 09:57:31 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(41): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 09:59:00 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(41): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 09:59:23 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(41): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 09:59:56 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(41): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:00:38 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(43): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:01:50 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(44): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:04:57 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(42): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:04:58 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(42): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:06:30 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(44): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:07:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index could not be found.
+Exception Attributes: array (
+  'class' => 'Index',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-01 10:07:47 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(44): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:07:47 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(44): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:11:53 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(45): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:11:54 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(45): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:13:04 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(46): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:13:05 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(46): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:14:16 Warning: Warning (2): array_merge(): Argument #2 is not an array in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 136]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_merge - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 136
+App\Controller\QuestionsController::index() - APP/Controller\QuestionsController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 10:14:16 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #1 is not an array in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 136]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_merge - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 136
+App\Controller\QuestionsController::index() - APP/Controller\QuestionsController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 10:14:16 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #1 is not an array in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 136]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_merge - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 136
+App\Controller\QuestionsController::index() - APP/Controller\QuestionsController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 10:14:16 Warning: Warning (2): array_merge(): Argument #2 is not an array in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 136]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_merge - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 136
+App\Controller\QuestionsController::index() - APP/Controller\QuestionsController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 10:14:16 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #1 is not an array in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 136]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_merge - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 136
+App\Controller\QuestionsController::index() - APP/Controller\QuestionsController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 10:14:16 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #1 is not an array in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 136]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_merge - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 136
+App\Controller\QuestionsController::index() - APP/Controller\QuestionsController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 10:15:11 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /questions
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(42): Cake\Controller\Controller->paginate(Array)
+#1 [internal function]: App\Controller\QuestionsController->index()
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-01 10:16:40 Warning: Warning (2): array_merge(): Argument #2 is not an array in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 138]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_merge - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 138
+App\Controller\QuestionsController::index() - APP/Controller\QuestionsController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 10:16:40 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #1 is not an array in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 138]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_merge - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 138
+App\Controller\QuestionsController::index() - APP/Controller\QuestionsController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 10:16:40 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #1 is not an array in [C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php, line 138]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+array_merge - [internal], line ??
+App\Controller\QuestionsController::filter() - APP/Controller\QuestionsController.php, line 138
+App\Controller\QuestionsController::index() - APP/Controller\QuestionsController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-01 10:40:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% 'seduzir') LIMIT 5 OFFSET 0' at line 1
+Request URL: /
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#6 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#7 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#8 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(171): Cake\ORM\Query->all()
+#9 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(688): Cake\Controller\Component\PaginatorComponent->paginate(Object(Cake\ORM\Query), Array)
+#10 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\src\Controller\QuestionsController.php(25): Cake\Controller\Controller->paginate(Object(Cake\ORM\Query))
+#11 [internal function]: App\Controller\QuestionsController->index()
+#12 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#13 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\QuestionsController))
+#15 C:\Users\Kanatsu\Documents\GitHub\questoes_concursos\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+

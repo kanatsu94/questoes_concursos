@@ -10,5 +10,6 @@
             $this->belongsTo('TrainingsAreas', [
                 'foreignKey' => 'training_area_id'
             ]);
+            $this->displayField('date_test');
         }
     }

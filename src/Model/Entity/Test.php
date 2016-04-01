@@ -6,8 +6,9 @@
 
     class Test extends Entity{
         public function _getQuestions(){
-            $alternatives = TableRegistry::get('Questions');
-            return $alternatives->find('all')->where(['test_id' => $this->id])->toArray();
+            $questions = TableRegistry::get('Questions');
+            
+            return $questions->find('all')->where(['test_id' => $this->id])->toArray();
         }
         
         public function _getTrainingArea(){

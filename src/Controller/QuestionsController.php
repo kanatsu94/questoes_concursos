@@ -16,19 +16,51 @@
         }
         
         public function index(){
-            $questoesTable = TableRegistry::get('Questions');
-            
-            $testsTable = TableRegistry::get('Tests');
-            
-            $tests = $testsTable ->find('all', ['contains' => ['TrainingsAreas']]);
-            
-            $questoes = $questoesTable->find('all');
-            
-            $this->set('ano', '2015');
-            $this->set('instituicao', 'UFMS');
-            $this->set('disciplina', 'Matemática');
+            $discipline = $this->request->data('discipline');
+            $keyword = $this->request->data('keyword');
+            $testFilter = $this->request->data('test-filter');
+                        
+            $questoes = $this->filter($discipline, $keyword, $testFilter);
+
             $this->set('questions', $this->paginate($questoes));
-            $this->set('tests', $tests);
+            $this->set('disciplines', $this->_getDisciplines());
+            $this->set('testFilter', $this->_getTests());
+        }
+        
+        private function _getTrainingsAreas(){
+            $trainingAreaTable = TableRegistry::get('TrainingsAreas');
+            $array = $trainingAreaTable->find('list')->toArray();
+            
+            array_unshift($array, null);
+            
+            return $array;
+        }
+        
+        private function _getDisciplines(){
+            $disciplineTable = TableRegistry::get('Disciplines');
+            $array = $disciplineTable->find('list')->toArray();
+            
+            array_unshift($array, null);
+            
+            return $array;
+        }
+        
+        private function _getInstitutions(){
+            $institutionTable = TableRegistry::get('Institutions');
+            $array = $institutionTable->find('list')->toArray();
+            
+            array_unshift($array, null);
+            
+            return $array;
+        }
+                
+        private function _getTests(){
+            $testTable = TableRegistry::get('Tests');
+            $array = $testTable->find('list')->toArray();
+            
+            array_unshift($array, null);
+            
+            return $array;
         }
         
         public function back(){
@@ -55,5 +87,24 @@
                 }
                 $this->set("msg", $msg);
             }
+        }
+        
+        public function filter($discipline, $keyword, $testFilter){
+            $questoesTable = TableRegistry::get('Questions');
+            
+            $query = $questoesTable->find('all');
+            
+            if($discipline != 0){
+                $query = $query->where(['discipline_id =' => $discipline]);
+            }
+            if($testFilter != 0){
+                $query = $query->where(['test_id =' => $testFilter]);
+            }
+            if(strlen(trim($keyword)) > 0){
+                $keyword = '%'.$keyword.'%';
+                $query = $query->where(['description LIKE' => $keyword]);
+            }
+                        
+            return $query;
         }
     }

@@ -487,13 +487,19 @@ fieldset legend {
 }
 
 button {
-    background: #31929b;
+    background: #FF646E;
+}
+
+button.btn-filter {
+    background: #FF646E;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
 }
 
 div.titulo_questao {
     display: block;
     clear: both;
-    background: #a5a5a5;
+    background: #7CA2A6;
     padding-left: 10px;
     margin-bottom: 5px;
     background-repeat: repeat-x;
@@ -506,7 +512,21 @@ section {
     clear: both;
 }
 
+section.question-not-found {
+    text-align: center;
+    font-weight: bold;
+    color: dimgrey;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding: 4px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+}
+
 div.titulo_questao h4 {
+    color: floralwhite;
+}
+
+.filter-label {
     color: floralwhite;
 }
 
@@ -520,6 +540,30 @@ div.detalhes_questao {
 div.detalhe{
     float: left;
     margin-right: 18px;
+}
+
+div.filter {
+    float: left;
+    margin-right: 18px;
+    width: 32%;
+}
+
+div.filter-keyword {
+    float: left;
+    margin-right: 10px;
+    width: 30%;
+}
+
+section.filter-opt {
+    min-height: 150px;
+    display: block;
+    background: #168D99;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    background-repeat: repeat-x;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+    font-weight: bold;
 }
 
 strong.detalhe_questao {

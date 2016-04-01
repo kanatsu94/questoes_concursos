@@ -7,5 +7,6 @@
         public function initialize(array $config){
             $this->table('institution');
             $this->hasMany('Tests', ['foreignKey' => 'institution_id']);
+            $this->displayField('name');
         }
     }
